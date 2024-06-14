@@ -17,7 +17,7 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET US <span className="purple"> INTRODUCE </span> OURSELVES
+              LET US <span className="purple"> TRANSFORM </span> WITH SOLOGENAI
             </h1>
             <p className="home-about-body">
               <b>Enhancing Everyday Life with Smart AI Solutions</b>
