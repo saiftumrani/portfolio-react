@@ -17,45 +17,50 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET US <span className="purple"> INTRODUCE </span> OURSELVES
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              <b>Enhancing Everyday Life with Smart AI Solutions</b>
+
+
+          
+     
+
+
+
               <br />
-              <br />I am fluent in classics like
+              <br /> Discover how AI can make your daily life easier and more enjoyable with 
               <i>
-                <b className="purple"> HTML, CSS, JavaScript Vanila and React.js </b>
+                <b className="purple"> SoloGen AI.</b>
+              </i>
+              <br />
+              Our intelligent solutions integrate seamlessly into your &nbsp;
+              <i>
+                <b className="purple">routine, offering convenience, efficiency, and enhanced experiences.</b> 
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                 Machine Learning.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              Whether it's
+              <b className="purple"> simplifying tasks, providing personalized recommendations,</b> or
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks.
-                </b>
+                  automating daily chores, we bring the future to your fingertips.
+                  </b>
               </i>
-              {/* &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i> */}
+              <br />
+              <br />
+
+              Experience the ease of life with 
+                <b className="purple"> SoloGen AI.</b>
+              </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
+
             </Tilt>
           </Col>
         </Row>
@@ -63,12 +68,12 @@ function Home2() {
           <Col md={12} className="home-about-social">
             {/* <h1>FIND ME ON</h1> */}
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="purple">connect </span>with us
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Awii21"
+                  href="https://github.com/saiftumrani"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -78,7 +83,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/awais_soomro21"
+                  href="https://twitter.com/saiftumrani"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -88,7 +93,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/awais-8458111b3/"
+                  href="https://www.linkedin.com/in/saiftumrani/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -98,7 +103,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/awais_soomro_"
+                  href="https://www.instagram.com/saiftumrani"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
