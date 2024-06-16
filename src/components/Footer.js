@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -19,7 +18,7 @@ function Footer() {
         
 
         <Col md="6" className="footer-copywright">
-          <h3>Made with <span role="img">❤️</span> by Awais</h3>
+          <h3>Made with <span role="img">❤️</span> by us</h3>
         </Col>
 
        
@@ -28,7 +27,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/Awii21"
+                href="https://github.com/saiftumrani"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -38,7 +37,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/awais_soomro21"
+                href="https://twitter.com/saiftumrani"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -48,7 +47,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/awais-8458111b3/"
+                href="https://www.linkedin.com/in/saiftumrani/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -58,7 +57,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/awais_soomro_"
+                href="https://www.instagram.com/saiftumrani"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

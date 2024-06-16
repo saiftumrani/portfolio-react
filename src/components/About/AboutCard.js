@@ -1,40 +1,29 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { VscDebugBreakpointFunction } from "react-icons/vsc";
-
+import Particle from "../Particle";
 function AboutCard() {
   return (
     <Card className="quote-card-view">
+            <Particle />
+
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Awais Soomro </span>
-            from <span className="purple"> Hyderabad, Pakistan.</span>
-            <br /> I am a self-taught Web Developer, I mostly do front-end stuff, but I'm currently experimenting Web Machine Learning using TensorFlow.js.
+            <span className="purple">SolGen AI </span>
+            from is dedicated to making everyday life smarter and easier through innovative AI solutions. Our mission is to integrate advanced technology into your daily routine, simplifying tasks and enhancing personal experiences.
+            <br />
             <br />
             <br />
 
-            I have done 2 month paid internship at a software company as Front-End Web Developer and Marketer.
+            Founded by a team of tech enthusiasts, we focus on creating user-friendly tools for smart homes, personalized recommendations, health insights, and daily assistance. With cutting-edge AI, we bring the future to your fingertips, ensuring our solutions are intuitive, secure, and tailored to your needs<br />
             <br />
-            <br />
-            I also have a life apart from coding!👽 
           </p>
-          <ul>
-            <li className="about-activity">
-              <VscDebugBreakpointFunction /> Playing Video Games
-            </li>
-            <li className="about-activity">
-              <VscDebugBreakpointFunction /> Cricket
-            </li>
-            <li className="about-activity">
-              <VscDebugBreakpointFunction /> Snooker
-            </li>
-          </ul>
+          
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Always desire to learn more!"{" "}
+            "Experience the Future of Everyday Living with SoloGen AI."{" "}
           </p>
-          <footer className="blockquote-footer">Awais</footer>
+          {/* <footer className="blockquote-footer">Awais</footer> */}
         </blockquote>
       </Card.Body>
     </Card>

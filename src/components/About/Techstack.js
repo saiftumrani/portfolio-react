@@ -1,50 +1,55 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { FaServer } from "react-icons/fa";
+import { MdOutlineSecurity } from "react-icons/md";
+
+
 import {
-  DiHtml5,
-  DiCss3,
-  DiBootstrap,
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
+ 
   DiGit,
+  
 } from "react-icons/di";
 import {
-  SiTailwindcss,
   SiTensorflow,
+  SiPython,
+  SiPytorch,
+  SiNvidia,
+  SiPandas,
+  SiNumpy
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiHtml5 />
+        <SiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiCss3 />
+        <SiPytorch />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiBootstrap />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTailwindcss />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
+        <SiNvidia />
+        </Col>
+     
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiTensorflow />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPandas />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNumpy />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaServer />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <MdOutlineSecurity />
+      </Col>
+
 
     </Row>
   );
