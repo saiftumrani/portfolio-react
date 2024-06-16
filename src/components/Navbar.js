@@ -3,6 +3,10 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
+<<<<<<< HEAD
+=======
+import Button from "react-bootstrap/Button";
+>>>>>>> c04372b58305ad90493600509d0c97ada8071fca
 import { Link } from "react-router-dom";
 
 import { GoHomeFill, GoPersonFill } from "react-icons/go";
